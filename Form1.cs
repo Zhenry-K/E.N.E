@@ -9,7 +9,12 @@ namespace ENE
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            if(textBox1.Text == Pass_block.Text)
+            {
+                Form2 form2 = new Form2();
+                form2.Show();
+                this.Hide();
+            }
         }
     }
 }
