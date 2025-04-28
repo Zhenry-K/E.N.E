@@ -38,6 +38,7 @@
             // button1
             // 
             button1.FlatStyle = FlatStyle.System;
+            button1.Font = new Font("Arial Narrow", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.Location = new Point(111, 117);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
@@ -51,7 +52,7 @@
             // 
             Pass_block.BackColor = SystemColors.Window;
             Pass_block.BorderStyle = BorderStyle.FixedSingle;
-            Pass_block.Font = new Font("Mojangles", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Pass_block.Font = new Font("Arial Narrow", 8.25F);
             Pass_block.Location = new Point(78, 325);
             Pass_block.Multiline = true;
             Pass_block.Name = "Pass_block";
@@ -63,6 +64,7 @@
             // Pass_Button
             // 
             Pass_Button.Enabled = false;
+            Pass_Button.Font = new Font("Arial Narrow", 8.25F);
             Pass_Button.Location = new Point(78, 285);
             Pass_Button.Name = "Pass_Button";
             Pass_Button.Size = new Size(239, 34);
@@ -73,6 +75,7 @@
             // User_Button
             // 
             User_Button.Enabled = false;
+            User_Button.Font = new Font("Arial Narrow", 8.25F);
             User_Button.Location = new Point(78, 193);
             User_Button.Name = "User_Button";
             User_Button.Size = new Size(239, 34);
@@ -84,7 +87,7 @@
             // 
             textBox1.BackColor = SystemColors.Window;
             textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.Font = new Font("Mojangles", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox1.Font = new Font("Arial Narrow", 8.25F);
             textBox1.Location = new Point(78, 233);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
